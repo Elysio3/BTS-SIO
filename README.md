@@ -1,2 +1,2 @@
-# PPE_Projet3
-Application GSB : application de gestion d'incident sur un parc informatiques.
+# BTS-SIO-Projet-4
+[GSB] Application C# Gestion Incidents
