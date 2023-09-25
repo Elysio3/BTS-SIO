@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Caf'Art</title>
+  <meta name="description" content="description de la page" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style2.css" title="style" />
+  <link href="SpryAssets/SpryValidationConfirm.css" rel="stylesheet" type="text/css">
+  
+
+  
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">CAF'ART<span class="logo_colour"> salon de café</span></a></h1>
+          <h2>Ouvert tout les jour de 13h à 16h</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+        
+        <!--MENU DE LA PAGE-->
+      	  <li ><a href="Acceuil.html">Acceuil</a></li>
+          <li><a href="OeuvreArt.html">L'Oeuvre d'art</a></li>
+          <li class="selected"><a href="Formulaires.html">Formulaires</a></li>
+          <li><a href="NousRetrouver.html">Nous retrouver</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+      
+      
+        <!-- ICI LA SIDEBAR -->
+        
+        
+        <h3>&nbsp;</h3>
+      </div>
+      <div id="content">
+      
+      
+      
+        <!-- ICI LE CONTENU PRINCIPAL -->
+        <h1>Formulaire d'inscription</h1>
+        <p>Vous trouverez ici les formulaires d'inscription aux rencontres amateurs afin de discuter et d'échanger sur les différentes oeuvres d'art proposées dans nos différents cafés.<br/><br/><br/><br/></p>
+        
+        <div id="formulaire">
+       	  <i>Entrez votre Nom : </i>
+            <input name="NOM" type="text">
+        	<br/>
+            <i>Entrez votre Prénom : </i>
+            <input name="Prénom" type="text">
+            <br/>
+            <br/>
+           <i> Choisissez un Café disponible : </i>
+		<form name="form" id="form">
+			  <select name="jumpMenu" id="jumpMenu" onChange="MM_jumpMenu('parent',this,0)">
+			    <option>Caf'Art CX - Cugnaux</option>
+			    <option>Caf'Atr Deluxe - PARIS</option>
+	      </select>
+	    </form>
+        <br/>
+        <i>Entrez votre tranche d'âge : </i>
+        <form name="form1" method="post" action="">
+          <p>
+            <label>
+              <input type="radio" name="trancheage" id="trancheage_0">
+              Moins de 15ans</label>
+            <br>
+            <label>
+              <input type="radio" name="trancheage" id="trancheage_1">
+              Entre 15 et 17ans</label>
+            <br>
+            <label>
+              <input type="radio" name="trancheage" id="trancheage_2">
+              Entre 18 ans et 24 ans</label>
+            <br>
+            <label>
+              <input type="radio" name="trancheage" id="trancheage_3">
+              Entre 25 ans et 40 ans</label>
+            <br>
+            <label>
+              <input type="radio" name="trancheage" id="trancheage_4">
+              Plus de 40 ans</label>
+            <br>
+          </p>
+        </for<input name="valider" type="button" value="  valider  ">
+        
+        
+        
+       </div>
+    </div>
+  </div>
+
+</body>
+</html>
